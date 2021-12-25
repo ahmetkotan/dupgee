@@ -1,0 +1,10 @@
+# jetbrains
+.idea/
+
+# python
+*.pyc
+*.pyo
+
+# my development files
+test*.py
+
