@@ -8,3 +8,8 @@
 # my development files
 test*.py
 
+
+# build
+build/
+dist/
+dupgee.egg-info/
