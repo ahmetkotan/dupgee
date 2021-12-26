@@ -71,7 +71,7 @@ def parse_http_request(connection, data, ip_address):
     request_data = parse_data_block(data_string=data_string, headers=headers)
     absolute_path, parameters = parse_url_parameters(absolute_path=absolute_path)
 
-    print(ip_address, method, absolute_path, len(data_string))
+    print(ip_address, method, absolute_path)
     return HttpRequest(
         method=method,
         path=absolute_path,

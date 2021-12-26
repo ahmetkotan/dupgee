@@ -10,13 +10,11 @@ def connect_to_wifi(ssid, password):
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
     if not wlan.isconnected():
-        print("connecting to wifi")
+        print("Connecting to wifi...")
         wlan.connect(ssid, password)
         while not wlan.isconnected():
             sleep_ms(500)
-            print("connecting to wifi")
+            print("Trying connecting to wifi again...")
 
-        print("connected to wifi")
-
-    print("connected.")
-    print('network config:', wlan.ifconfig())
+    print("Connected to wifi.")
+    print("Network configuration:", wlan.ifconfig())
