@@ -1,4 +1,5 @@
 include MANIFEST.in
 include README.md
 recursive-include dupgee *.py
+recursive-include screenshots *.png
 global-exclude *.py[ocd]
