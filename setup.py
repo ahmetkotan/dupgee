@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="dupgee",
-    version="0.2",
+    version="0.3",
     packages=["dupgee", "dupgee.base", "dupgee.base.dupgee"],
     url="https://github.com/ahmetkotan/dupgee",
     license="",
